@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilPribadiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewProfilPribadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/profil_pribadi"
+        android:textColor="#6A54EE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNamaProfilPribadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/nama"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPersonNameProfilPribadi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfilPribadi" />
+
+    <EditText
+        android:id="@+id/editTextPersonNameProfilPribadi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="@string/jane"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewUsiaProfilPribadi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNamaProfilPribadi" />
+
+    <EditText
+        android:id="@+id/editTextUsiaProfilPribadi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="300dp"
+        android:ems="10"
+        android:hint="@string/tahun"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBBProfilPribadi" />
+
+    <TextView
+        android:id="@+id/textViewUsiaProfilPribadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/usia"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextUsiaProfilPribadi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPersonNameProfilPribadi" />
+
+    <TextView
+        android:id="@+id/textViewBBProfilPribadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/bb"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextBBProfilPribadi"
+        app:layout_constraintEnd_toStartOf="@+id/textViewTBProfilPribadi"
+        app:layout_constraintStart_toEndOf="@+id/textViewUsiaProfilPribadi"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPersonNameProfilPribadi" />
+
+    <EditText
+        android:id="@+id/editTextBBProfilPribadi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="170dp"
+        android:ems="10"
+        android:hint="@string/kg"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextUsiaProfilPribadi"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBBProfilPribadi" />
+
+    <TextView
+        android:id="@+id/textViewTBProfilPribadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/tb"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTBProfilPribadi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewBBProfilPribadi"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPersonNameProfilPribadi" />
+
+    <EditText
+        android:id="@+id/editTextTBProfilPribadi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="@string/cm"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/editTextBBProfilPribadi"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTBProfilPribadi" />
+
+    <TextView
+        android:id="@+id/textViewFrekuensiProfilPribadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/frekuensi_olahraga"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroupFrekuensiProfilPribadi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsiaProfilPribadi" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFrekuensiProfilPribadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textViewRiwayatProfilPribadi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFrekuensiProfilPribadi">
+
+        <RadioButton
+            android:id="@+id/radioButtonTidakPernahProfilPribadi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="@string/tidak_pernah" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSedangProfilPribadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="@string/sedang" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAktifProfilPribadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="@string/aktif" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewRiwayatProfilPribadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="246dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/riwayat_penyakit_atau_cedera"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupFrekuensiProfilPribadi" />
+
+    <EditText
+        android:id="@+id/editTextMultiLineRiwayatProfilPribadi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/asma_cedera_pinggang"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSimpanProfilPribadi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRiwayatProfilPribadi" />
+
+    <Button
+        android:id="@+id/buttonSimpanProfilPribadi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#6A54EE"
+        android:text="@string/simpan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMultiLineRiwayatProfilPribadi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

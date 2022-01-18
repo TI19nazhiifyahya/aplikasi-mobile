@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuatProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textViewProfilmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/profilmu"
+        android:textColor="#6A54EE"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNamaProfilmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/nama"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPersonNameProfilmu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfilmu" />
+
+    <EditText
+        android:id="@+id/editTextPersonNameProfilmu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="@string/jane"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewUsiaProfilmu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNamaProfilmu" />
+
+    <EditText
+        android:id="@+id/editTextUsiaProfilmu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="300dp"
+        android:ems="10"
+        android:hint="@string/tahun"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBBProfilmu" />
+
+    <TextView
+        android:id="@+id/textViewUsiaProfilmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/usia"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextUsiaProfilmu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPersonNameProfilmu" />
+
+    <TextView
+        android:id="@+id/textViewBBProfilmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/bb"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextBBProfilmu"
+        app:layout_constraintEnd_toStartOf="@+id/textViewTBProfilmu"
+        app:layout_constraintStart_toEndOf="@+id/textViewUsiaProfilmu"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPersonNameProfilmu" />
+
+    <EditText
+        android:id="@+id/editTextBBProfilmu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="170dp"
+        android:ems="10"
+        android:hint="@string/kg"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextUsiaProfilmu"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBBProfilmu" />
+
+    <TextView
+        android:id="@+id/textViewTBProfilmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/tb"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTBProfilmu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewBBProfilmu"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPersonNameProfilmu" />
+
+    <EditText
+        android:id="@+id/editTextTBProfilmu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="@string/cm"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/editTextBBProfilmu"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTBProfilmu" />
+
+    <TextView
+        android:id="@+id/textViewFrekuensiProfilmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/frekuensi_olahraga"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroupFrekuensiProfilmu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsiaProfilmu" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFrekuensiProfilmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textViewRiwayatProfilmu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFrekuensiProfilmu">
+
+        <RadioButton
+            android:id="@+id/radioButtonTidakPernahProfilmu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="Tidak Pernah" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSedangProfilmu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="Sedang" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAktifProfilmu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="Aktif" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewRiwayatProfilmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="246dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/riwayat_penyakit_atau_cedera"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupFrekuensiProfilmu" />
+
+    <EditText
+        android:id="@+id/editTextMultiLineRiwayatProfilmu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/asma_cedera_pinggang"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSelanjutnyaProfilmu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRiwayatProfilmu" />
+
+    <Button
+        android:id="@+id/buttonSelanjutnyaProfilmu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#6A54EE"
+        android:text="@string/selanjutnya"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMultiLineRiwayatProfilmu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
