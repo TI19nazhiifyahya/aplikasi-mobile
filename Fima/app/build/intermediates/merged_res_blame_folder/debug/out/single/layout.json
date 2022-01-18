@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_akun_saya.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\fragment_akun_saya.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_vid_call.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\fragment_vid_call.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_buat_profile.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\fragment_buat_profile.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_program.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\fragment_program.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profil_pribadi.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\fragment_profil_pribadi.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_login_page.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\fragment_login_page.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_buat_akun.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\fragment_buat_akun.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chat.xml",
+        "source": "D:\\Document\\Kuliah\\Git\\aplikasi-mobile\\FiMa\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    }
+]

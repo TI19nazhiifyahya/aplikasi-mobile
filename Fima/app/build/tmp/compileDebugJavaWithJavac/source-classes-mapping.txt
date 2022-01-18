@@ -1,0 +1,59 @@
+com/nazhiif/fima/BuildConfig.java
+ com.nazhiif.fima.BuildConfig
+com/nazhiif/fima/ProgramFragment.java
+ com.nazhiif.fima.ProgramFragment
+com/nazhiif/fima/LoginActivity.java
+ com.nazhiif.fima.LoginActivity
+com/nazhiif/fima/databinding/FragmentBuatProfileBinding.java
+ com.nazhiif.fima.databinding.FragmentBuatProfileBinding
+com/nazhiif/fima/databinding/ActivityMainBinding.java
+ com.nazhiif.fima.databinding.ActivityMainBinding
+com/nazhiif/fima/AkunSayaFragment.java
+ com.nazhiif.fima.AkunSayaFragment
+ com.nazhiif.fima.AkunSayaFragment$1
+com/nazhiif/fima/databinding/FragmentAkunSayaBinding.java
+ com.nazhiif.fima.databinding.FragmentAkunSayaBinding
+com/nazhiif/fima/databinding/FragmentChatBinding.java
+ com.nazhiif.fima.databinding.FragmentChatBinding
+com/nazhiif/fima/BuatProfileFragment.java
+ com.nazhiif.fima.BuatProfileFragment
+ com.nazhiif.fima.BuatProfileFragment$1
+com/nazhiif/fima/ChatFragment.java
+ com.nazhiif.fima.ChatFragment
+com/nazhiif/fima/databinding/FragmentVidCallBinding.java
+ com.nazhiif.fima.databinding.FragmentVidCallBinding
+com/nazhiif/fima/databinding/FragmentLoginPageBinding.java
+ com.nazhiif.fima.databinding.FragmentLoginPageBinding
+com/nazhiif/fima/databinding/FragmentProfilPribadiBinding.java
+ com.nazhiif.fima.databinding.FragmentProfilPribadiBinding
+com/nazhiif/fima/databinding/FragmentBuatAkunBinding.java
+ com.nazhiif.fima.databinding.FragmentBuatAkunBinding
+com/nazhiif/fima/databinding/FragmentHomeBinding.java
+ com.nazhiif.fima.databinding.FragmentHomeBinding
+com/nazhiif/fima/VidCallFragment.java
+ com.nazhiif.fima.VidCallFragment
+com/nazhiif/fima/ProfilPribadiFragment.java
+ com.nazhiif.fima.ProfilPribadiFragment
+ com.nazhiif.fima.ProfilPribadiFragment$1
+com/nazhiif/fima/LoginPageFragment.java
+ com.nazhiif.fima.LoginPageFragment
+ com.nazhiif.fima.LoginPageFragment$1
+ com.nazhiif.fima.LoginPageFragment$2
+com/nazhiif/fima/databinding/FragmentProfileBinding.java
+ com.nazhiif.fima.databinding.FragmentProfileBinding
+com/nazhiif/fima/databinding/ActivityLoginBinding.java
+ com.nazhiif.fima.databinding.ActivityLoginBinding
+com/nazhiif/fima/MainActivity.java
+ com.nazhiif.fima.MainActivity
+com/nazhiif/fima/databinding/FragmentProgramBinding.java
+ com.nazhiif.fima.databinding.FragmentProgramBinding
+com/nazhiif/fima/BuatAkunFragment.java
+ com.nazhiif.fima.BuatAkunFragment
+ com.nazhiif.fima.BuatAkunFragment$1
+com/nazhiif/fima/HomeFragment.java
+ com.nazhiif.fima.HomeFragment
+com/nazhiif/fima/ProfileFragment.java
+ com.nazhiif.fima.ProfileFragment
+ com.nazhiif.fima.ProfileFragment$1
+ com.nazhiif.fima.ProfileFragment$2
+ com.nazhiif.fima.ProfileFragment$3
